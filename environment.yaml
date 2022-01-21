@@ -1,0 +1,12 @@
+name: rate-limiter
+channels:
+  - conda-forge
+dependencies:
+  - nodejs
+  - python
+  - pip
+  - pip:
+    - black==21.12b0
+    - flake8==4.0.1
+    - isort==5.10.1
+    - loguru==0.5.3
